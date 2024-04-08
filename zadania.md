@@ -11,6 +11,7 @@
 - Zauwazony blad:  	Containers with incomplete status: [wait-longhorn-manager]
 - Manager crashuje sie z powodu braku open-iscsi
 - Zainstalowanie dependencies za pomoca "kubectl apply -f https://raw.githubusercontent.com/longhorn/longhorn/v1.4.0/deploy/prerequisite/longhorn-iscsi-installation.yaml"
+- Longhorn dziala ![alt text](https://cdn.discordapp.com/emojis/1080698185393127424.webp?size=96&quality=lossless)
 
 # Zadanie 3
  - dodałem repo o nazwie rodeo, kierujące do https://rancher.github.io/rodeo
@@ -27,7 +28,7 @@
  - Dodałem dockerownię ![](screenshots/4.png)
 
 # Zadanie pod 7
- - ![panie maksymilianie, prosze przestac skanowac serwer neuvectorem, gdyz nie moge odpalic mysqla.](screenshots/6.png)
+ - panie maksymilianie, prosze przestac skanowac serwer neuvectorem, gdyz nie moge odpalic mysqla.![alt text](screenshots/6.png)
 
 # Zadanie 18
 Pan Adrian użył złego obrazu. Nasze serwery nie są na architekturze arm64v8, tylko amd64.
