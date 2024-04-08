@@ -7,7 +7,7 @@
  - `kubectl create deployment nginx --image=nginx --namespace=nginx`
  - `kubectl expose deployment nginx --port=8081 --namespace=nginx`
  - W panelu zostały wprowadzone zmiany do podu nginx.
- - 
+ - ~~jednak nie udalo sie bo mielismy longhorna, tylko zostal usuniety w zmiane na ranchera nie poprawnie~~
 
 
 # Zadanie 2 
