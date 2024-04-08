@@ -49,7 +49,7 @@ ReplicaSet jest prostszym mechanizmem, który zapewnia, że określona liczba re
 # Zadanie 17
 - Tworzymy nowy projekt oraz namespace "baza", i ładujemy .yaml.
 - Dodajemy więcej ramu, aby OMMkiller sie nie uruchamiał, i zmieniamy nazwe ROOT PASSWORD env, aby serwer sie uruchomil poprawnie.
-- Wszystko super chodzi
+- Wszystko super chodzi ![alt text](https://cdn.discordapp.com/emojis/1223769123390230538.webp?size=96&quality=lossless)
 ![alt text](screenshots/8.png)
 
 # Zadanie 18
