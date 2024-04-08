@@ -4,6 +4,8 @@
 # Zadanie 1
  - utworzyłem projekt
  - dodałem namespace nginx
+ - `kubectl create deployment nginx --image=nginx --namespace=nginx`
+ - `kubectl expose deployment nginx --port=8081 --namespace=nginx`
 
 # Zadanie 2 
 - Environmment check zwraca brak kilku potrzebnych paczek (env check z dokumentacji Longhorn)
