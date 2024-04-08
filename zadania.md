@@ -4,4 +4,7 @@
 # Zadanie 1
  - utworzyłem projekt
  - dodałem namespace nginx
- 
+
+# Zadanie 3
+ - dodałem repo o nazwie rodeo, kierujące do https://rancher.github.io/rodeo
+ - zainstalowałem tetrisa ![](screenshots/1.png)
