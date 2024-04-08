@@ -98,6 +98,9 @@ spec:
 # Zadanie 7
 Także Panie Adrianku, można podejrzeć yaml zasobu za pomocą komendy `kubectl get <resource> <nazwa> -o yaml` lub `kubectl describe <resource> <nazwa>`. Jeśli chcesz przez GUI, to w Rancherze klikasz na zasób w namespace i wyświetla ci się jego yaml.
 
+# Zadanie 8
+Gateway w Kubernetach, to zasób, który pozwala na zarządzanie ruchem sieciowym w klastrze. Jest to część API Gateway, która oferuje elastyczne, zorientowane na role i świadome protokołu mechanizmy konfiguracji.
+
 # Zadanie 9
 ReplicaSet jest prostszym mechanizmem, który zapewnia, że określona liczba replik podów jest uruchomiona w każdym momencie. Deployment oferuje więcej funkcji, takich jak aktualizacje, cofanie do poprzednich wersji i zarządzanie stanem aplikacji.
 
