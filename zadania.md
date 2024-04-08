@@ -27,7 +27,7 @@
  - Dodałem dockerownię ![](screenshots/4.png)
 
 # Zadanie pod 7
- - ![panie maksymilianie, prosze przestac skanowac serwer neuvectorem, gdyz nie moge odpalic mysqla.]!(screenshots/6.png)
+ - ![panie maksymilianie, prosze przestac skanowac serwer neuvectorem, gdyz nie moge odpalic mysqla.](screenshots/6.png)
 
 # Zadanie 18
 Pan Adrian użył złego obrazu. Nasze serwery nie są na architekturze arm64v8, tylko amd64.
