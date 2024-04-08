@@ -10,4 +10,7 @@
  - zainstalowałem tetrisa ![](screenshots/1.png)
 
 # Zadanie 4
-Zainstalowałem neuvector ![](screenshots/2.png)
+ - Zainstalowałem neuvector ![](screenshots/2.png)
+ - Zainstalowałem Extension Operator
+ - zainstalowałem NeuVector UI Extension 
+
