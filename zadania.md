@@ -6,15 +6,17 @@
  - dodałem namespace nginx
  - `kubectl create deployment nginx --image=nginx --namespace=nginx`
  - `kubectl expose deployment nginx --port=8081 --namespace=nginx`
- - W panelu zostały wprowadzone zmiany do podu nginx.
- - ~~jednak nie udalo sie bo mielismy longhorna, tylko zostal usuniety w zmiane na ranchera nie poprawnie~~
+
 
 
 # Zadanie 2 
 - Environment check na stronie Longhorna daje zielone swiatlo do instalowania Longhorna
 - Dodałem Longhorna za pomoca GUI Ranchera
 - ![alt text](screenshots/9.png)
+ - W panelu zostały wprowadzone zmiany do podu nginx.
+ - ~~jednak nie udalo sie bo mielismy longhorna, tylko zostal usuniety w zmiane na ranchera nie poprawnie~~
 # Zadanie 3
+
  - dodałem repo o nazwie rodeo, kierujące do https://rancher.github.io/rodeo
  - zainstalowałem tetrisa ![](screenshots/1.png)
 
