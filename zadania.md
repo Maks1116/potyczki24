@@ -6,8 +6,10 @@
  - dodałem namespace nginx
 
 # Zadanie 2 
-- Environmment check zwraca brak komendy "which" oraz kilku innych potrzebnych (env check z dokumentacji Longhorn)
+- Environmment check zwraca brak kilku potrzebnych paczek (env check z dokumentacji Longhorn)
 - Zainstalowalem potrzebne paczki oraz Longhorna za pomoca kubectl apply.
+- Zauwazony blad:  	Containers with incomplete status: [wait-longhorn-manager]
+- Manager crashuje sie z powodu braku open-iscsi
 
 # Zadanie 3
  - dodałem repo o nazwie rodeo, kierujące do https://rancher.github.io/rodeo
