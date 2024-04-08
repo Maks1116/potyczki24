@@ -98,6 +98,9 @@ spec:
 # Zadanie 7
 Także Panie Adrianku, można podejrzeć yaml zasobu za pomocą komendy `kubectl get <resource> <nazwa> -o yaml` lub `kubectl describe <resource> <nazwa>`. Jeśli chcesz przez GUI, to w Rancherze klikasz na zasób w namespace i wyświetla ci się jego yaml.
 
+# Zadanie pomiędzy
+Uruchamianie MySQL na domyślnych ustawieniach zwykle nie jest zalecane, szczególnie w środowisku produkcyjnym. O ile jest do bardzo proste, to zwykle nie jest to bezpieczne oraz nie musi być koniecznie zoptymalizowane pod kątem konkretnego wdrożenia.
+
 # Zadanie 8
 Gateway w Kubernetach, to zasób, który pozwala na zarządzanie ruchem sieciowym w klastrze. Jest to część API Gateway, która oferuje elastyczne, zorientowane na role i świadome protokołu mechanizmy konfiguracji.
 
