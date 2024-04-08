@@ -49,6 +49,8 @@ ReplicaSet jest prostszym mechanizmem, który zapewnia, że określona liczba re
 # Zadanie 17
 - Tworzymy nowy projekt oraz namespace "baza", i ładujemy .yaml.
 - Dodajemy więcej ramu, aby OMMkiller sie nie uruchamiał, i zmieniamy nazwe ROOT PASSWORD env, aby serwer sie uruchomil poprawnie.
+- Wszystko super chodzi
+![alt text](screenshots/8.png)
 
 # Zadanie 18
 Pan Adrian użył złego obrazu. Nasze serwery nie są na architekturze arm64v8, tylko amd64.
