@@ -31,7 +31,10 @@
 Także Panie Adrianku, można podejrzeć yaml zasobu za pomocą komendy `kubectl get <resource> <nazwa> -o yaml` lub `kubectl describe <resource> <nazwa>`. Jeśli chcesz przez GUI, to w Rancherze klikasz na zasób w namespace i wyświetla ci się jego yaml.
 
 # Zadanie pod 7
- - panie maksymilianie, prosze przestac skanowac serwer neuvectorem, gdyz nie moge odpalic mysqla.![alt text](screenshots/6.png)
+ - Pan adrian stworzyl poda mysql i dał mu 64 megabajtów ramu. Ciekawe dlaczego jest zabijany przez oomkillera. 
+ - ~~erm. dlaczego sie automatycznie usuwa klon???~~
+ - Zaktualizowano deployment i dodano więcej RAMu.
+ - **mysql-5788b9fcff-m6m4n**
 
 # Zadanie 18
 Pan Adrian użył złego obrazu. Nasze serwery nie są na architekturze arm64v8, tylko amd64.
