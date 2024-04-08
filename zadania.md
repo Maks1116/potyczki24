@@ -14,3 +14,7 @@
  - Zainstalowałem Extension Operator
  - zainstalowałem NeuVector UI Extension 
 ![very neuvector](screenshots/3.png)
+
+# Zadanie 5
+ - Włączyłem autoscan w neuvectorze
+ - Dodałem dockerownię ![](screenshots/4.png)
