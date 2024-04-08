@@ -27,6 +27,9 @@
  - Włączyłem autoscan w neuvectorze
  - Dodałem dockerownię ![](screenshots/4.png)
 
+# Zadanie 7
+Także Panie Adrianku, można podejrzeć yaml zasobu za pomocą komendy `kubectl get <resource> <nazwa> -o yaml` lub `kubectl describe <resource> <nazwa>`. Jeśli chcesz przez GUI, to w Rancherze klikasz na zasób w namespace i wyświetla ci się jego yaml.
+
 # Zadanie pod 7
  - panie maksymilianie, prosze przestac skanowac serwer neuvectorem, gdyz nie moge odpalic mysqla.![alt text](screenshots/6.png)
 
