@@ -33,10 +33,70 @@ To też sprawka pana Adriana?
 
 ID: `08e93041fe885bdce864`
 
+# Zadanie 6
+Musimy dodać PV, ustawić tryb PVC na manualny oraz zaaplikować yaml. Oto przykładowy yaml:
+
+```yaml
+---
+kind: PersistentVolume
+apiVersion: v1
+metadata:
+  name: ubuntu-pv
+spec:
+  capacity:
+    storage: 1Gi
+  accessModes:
+    - ReadWriteOnce
+  persistentVolumeReclaimPolicy: Retain
+  storageClassName: manual
+  local:
+    path: /mnt/data
+---
+kind: PersistentVolumeClaim
+apiVersion: v1
+metadata:
+  name: ubuntu-pvc
+spec:
+  storageClassName: manual
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 1Gi
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: ubuntu
+  name: ubuntu
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: ubuntu
+  template:
+    metadata:
+      labels:
+        app: ubuntu
+    spec:
+      volumes:
+        - name: test-vol
+          persistentVolumeClaim:
+            claimName: ubuntu-pvc
+      containers:
+        - name: ubuntu
+          image: busybox:latest
+          command:
+          - sleep
+          - "86400"
+          volumeMounts:
+            - mountPath: /shared_files
+              name: test-vol
+```
+
 # Zadanie 7
 Także Panie Adrianku, można podejrzeć yaml zasobu za pomocą komendy `kubectl get <resource> <nazwa> -o yaml` lub `kubectl describe <resource> <nazwa>`. Jeśli chcesz przez GUI, to w Rancherze klikasz na zasób w namespace i wyświetla ci się jego yaml.
-
-
 
 # Zadanie 9
 ReplicaSet jest prostszym mechanizmem, który zapewnia, że określona liczba replik podów jest uruchomiona w każdym momencie. Deployment oferuje więcej funkcji, takich jak aktualizacje, cofanie do poprzednich wersji i zarządzanie stanem aplikacji.
