@@ -27,7 +27,7 @@
  - Włączyłem autoscan w neuvectorze
  - Dodałem dockerownię ![](screenshots/4.png)
 
-!(screenshots/7.png)
+![](screenshots/7.png)
 To też sprawka pana Adriana?
 
 ID: `08e93041fe885bdce864`
