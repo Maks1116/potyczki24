@@ -37,14 +37,22 @@ ID: `08e93041fe885bdce864`
 # Zadanie 7
 Także Panie Adrianku, można podejrzeć yaml zasobu za pomocą komendy `kubectl get <resource> <nazwa> -o yaml` lub `kubectl describe <resource> <nazwa>`. Jeśli chcesz przez GUI, to w Rancherze klikasz na zasób w namespace i wyświetla ci się jego yaml.
 
-# Zadanie pod 7
+
+
+# Zadanie 9
+ReplicaSet jest prostszym mechanizmem, który zapewnia, że określona liczba replik podów jest uruchomiona w każdym momencie. Deployment oferuje więcej funkcji, takich jak aktualizacje, cofanie do poprzednich wersji i zarządzanie stanem aplikacji.
+
+# Zadanie 12
  - Pan adrian stworzyl poda mysql i dał mu 64 megabajtów ramu. Ciekawe dlaczego jest zabijany przez oomkillera. 
  - ~~erm. dlaczego sie automatycznie usuwa klon???~~
  - Zaktualizowano deployment i dodano więcej RAMu.
  - **mysql-5788b9fcff-m6m4n**
 
-# Zadanie 9
-ReplicaSet jest prostszym mechanizmem, który zapewnia, że określona liczba replik podów jest uruchomiona w każdym momencie. Deployment oferuje więcej funkcji, takich jak aktualizacje, cofanie do poprzednich wersji i zarządzanie stanem aplikacji.
+# Zadanie 17
+- Tworzymy nowy projekt oraz namespace "baza", i ładujemy .yaml.
+- Dodajemy więcej ramu, aby OMMkiller sie nie uruchamiał, i zmieniamy nazwe ROOT PASSWORD env, aby serwer sie uruchomil poprawnie.
+- Wszystko super chodzi ![alt text](https://cdn.discordapp.com/emojis/1223769123390230538.webp?size=96&quality=lossless)
+![alt text](screenshots/8.png)
 
 # Zadanie 18
 Pan Adrian użył złego obrazu. Nasze serwery nie są na architekturze arm64v8, tylko amd64.
