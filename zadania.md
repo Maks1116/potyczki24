@@ -10,6 +10,7 @@
 - Zainstalowalem potrzebne paczki oraz Longhorna za pomoca kubectl apply.
 - Zauwazony blad:  	Containers with incomplete status: [wait-longhorn-manager]
 - Manager crashuje sie z powodu braku open-iscsi
+- Zainstalowanie dependencies za pomoca "kubectl apply -f https://raw.githubusercontent.com/longhorn/longhorn/v1.4.0/deploy/prerequisite/longhorn-iscsi-installation.yaml"
 
 # Zadanie 3
  - dodałem repo o nazwie rodeo, kierujące do https://rancher.github.io/rodeo
