@@ -38,6 +38,9 @@ Także Panie Adrianku, można podejrzeć yaml zasobu za pomocą komendy `kubectl
 # Zadanie pod 7
  - panie maksymilianie, prosze przestac skanowac serwer neuvectorem, gdyz nie moge odpalic mysqla.![alt text](screenshots/6.png)
 
+# Zadanie 9
+ReplicaSet jest prostszym mechanizmem, który zapewnia, że określona liczba replik podów jest uruchomiona w każdym momencie. Deployment oferuje więcej funkcji, takich jak aktualizacje, cofanie do poprzednich wersji i zarządzanie stanem aplikacji.
+
 # Zadanie 18
 Pan Adrian użył złego obrazu. Nasze serwery nie są na architekturze arm64v8, tylko amd64.
 ![alt text](screenshots/5.png)
